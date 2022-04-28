@@ -62,6 +62,8 @@ class Database:
         databaseCursor.close()
         self.database.commit()
 
+
+#Test lines to check if DB works
 Leaderboard = Database()
 Leaderboard.readLeaderboard()
 ID = int(input("-->"))
